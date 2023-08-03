@@ -1,42 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
-    <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
-    <!-- Google Fonts Roboto -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
-    />
-    <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
-  </head>
-  <body>
-    <!-- Start your project here-->
-    <div class="container">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>WoW Work</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/w.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+
+  <style>
+    .navbar .nav-link {
+      color: #fff !important;
+    }
+
+    .navbar {
+      background-color: #3333FF /* Same background color as the dark mask */
+    }
+  </style>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+    <a class="navbar-brand nav-link" href="https://wowwork.framer.ai/">
+      <img
+        src="img/wLogo.png"
+        height="28"
+        alt="WoW Work Logo"
+        loading="lazy"
+        style="margin-top: -1px;"
+      />
+    </a>
+    <a class="navbar-brand nav-link" href="https://wowwork.framer.ai/">
+      <img
+        src="img/wow.png"
+        height="28"
+        alt="WoW Work Logo"
+        loading="lazy"
+        style="margin-top: -1px;"
+      />
+    </a>
+    
+
+    <!-- Toggle button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-mdb-toggle="collapse"
+      data-mdb-target="#navbarButtonsExample"
+      aria-controls="navbarButtonsExample"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarButtonsExample">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+      </ul>
+      <!-- Left links -->
+
+      <div class="d-flex align-items-center">
+        <a
+                class="btn btn-link px-3 me-2"
+                href="https://wowwork.framer.ai/"
+                role="button"
+                style="color: white;"
+                ><strong>Home</strong></a
+              >
+        <button type="button" class="btn btn-link px-3 me-2" style="color: white;">
+          <strong>Solutions</strong>
+        </button>
+        <a
+        class="btn btn-link px-3 me-2"
+        href="https://wowwork.framer.ai/"
+        role="button"
+        style="color: black; background-color: yellow;"
+
+        ><strong>Schedule a meeting</strong></a
+      >
+      </div>
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->
+</head>
+<style>
+  .gradient-custom {
+    /* fallback for old browsers */
+    background: #a18cd1;
+
+    background: hsla(240, 100%, 60%, 1);
+
+background: linear-gradient(270deg, hsla(240, 100%, 60%, 1) 0%, hsla(270, 100%, 40%, 1) 100%);
+
+background: -moz-linear-gradient(270deg, hsla(240, 100%, 60%, 1) 0%, hsla(270, 100%, 40%, 1) 100%);
+
+background: -webkit-linear-gradient(270deg, hsla(240, 100%, 60%, 1) 0%, hsla(270, 100%, 40%, 1) 100%);
+  
+    }
+</style>
+
+<body>
+  <!-- Start your project here-->
+  <div class="bg-image" style="
+  background-image: url('https://framerusercontent.com/images/7abpnES8qLnnISgBOYJYxmR6Xs.png');
+  height: 100vh;
+">
+    <div class="gradient-custom mask" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="container">
         <div class="text-center">
-          <h1>Calendly Integration Test</h1>
-    <!-- Calendly inline widget begin -->
-    <div class="calendly-inline-widget" data-url="https://calendly.com/jocelynnn" style="min-width:320px;height:700px;"></div>
-    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-    <!-- Calendly inline widget end -->
+          <h1 class="text-white mt-4">Schedule a meeting!</h1>
+          <!-- Calendly inline widget begin -->
+          <div class="calendly-inline-widget" data-url="https://calendly.com/jocelynnn"
+            style="min-width:320px;height:700px;"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+          <!-- Calendly inline widget end -->
         </div>
       </div>
     </div>
-    <!-- End your project here-->
+  </div>
+  </div>
+  </div>
 
-    <!-- MDB -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Custom scripts -->
-    <script type="text/javascript"></script>
-  </body>
+  <!-- End your project here-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+</body>
+
 </html>
