@@ -23,6 +23,18 @@
     .navbar {
       background-color: #3333FF /* Same background color as the dark mask */
     }
+    .custom-link {
+    color: white;
+    text-decoration: none;
+    transition: none;
+    cursor: pointer;
+  }
+
+  /* If needed, you can also style the link when it's hovered over */
+  .custom-link:hover {
+    background-color: #3333FF
+    
+  }
   </style>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
@@ -72,15 +84,22 @@
 
       <div class="d-flex align-items-center">
         <a
-                class="btn btn-link px-3 me-2"
+                class="custom-link"
                 href="https://wowwork.framer.ai/"
                 role="button"
                 style="color: white;"
                 ><strong>Home</strong></a
               >
-        <button type="button" class="btn btn-link px-3 me-2" style="color: white;">
-          <strong>Solutions</strong>
-        </button>
+        
+        <a
+        <a
+                class="custom-link px-3 me-2"
+                href="https://wowwork.framer.ai/"
+                role="button"
+                style="color: white;"
+                ><strong>Solutions</strong></a
+              >
+        
         <a
         class="btn btn-link px-3 me-2"
         href="https://wowwork.framer.ai/"
