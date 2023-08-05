@@ -68,13 +68,33 @@
           <a class="custom-link" href="https://wowwork.framer.ai/" role="button"
             style="color: white;"><strong>Home</strong></a>
 
-          <a <a class="custom-link px-3 me-2" href="https://wowwork.framer.ai/" role="button"
-            style="color: white;"><strong>Solutions</strong></a>
+            <div class="dropdown">
+              <a
+                class="btn btn-primary dropdown-toggle"
+                style="background-color: #3333FF;"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <strong>Solutions</strong>
+              </a>
+            
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="https://wowwork.framer.ai/startups">Staffing for startups</a></li>
+                <li><a class="dropdown-item" href="https://wowwork.framer.ai/smbs">Staffing for SMBs</a></li>
+                <li><a class="dropdown-item" href="https://wowwork.framer.ai/platform">Recruiter platform</a></li>
+                <li><a class="dropdown-item" href="https://wowwork.framer.ai/community">Community and Job board</a></li>
+              </ul>
+            </div>
+
+            <a class="custom-link px-3 me-2" href="https://wowwork.framer.ai/contactus" role="button" 
+              style="color: white;"><strong>Contact us</strong></a>
 
           <a class="btn btn-link px-3 me-2" href="https://jocelynvelarde.github.io/calendly/" role="button"
             style="color: black; background-color: yellow;"><strong>Schedule a meeting</strong></a>
-            <a class="btn btn-link px-3 me-2" href="" role="button" 
-              style="color: black; background-color: white;"><strong>Contact us</strong></a>
+            
         </div>
       </div>
       <!-- Collapsible wrapper -->
@@ -109,10 +129,12 @@
       <div class="container">
         <div class="text-center">
           <h1 class="text-white mt-4">Schedule a meeting!</h1>
+         
           <!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="https://calendly.com/wowwork/30min" style="min-width:320px;height:700px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
+
         </div>
       </div>
     </div>
